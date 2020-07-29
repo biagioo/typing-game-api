@@ -3,7 +3,6 @@
 This App was Built with Ruby on Rails.
 
 This is the backend of The Typing Game, here is a link to the frontend repository. https://github.com/biagioo/TypingGame
-Check out the demo video or read about it.
 
 ## Functionality
 
