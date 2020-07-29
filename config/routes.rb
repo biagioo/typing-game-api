@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
-  resources :words
-  resources :scores
-  resources :difficulties
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  
+  get '/highscores', to: 'scores#high_scores'
+
+  resources :scores, :only => [:create, :index] 
+  
+  resources :difficulties, :only => :index do 
+    resources :words, :only => :index
+  end
+  
 end
