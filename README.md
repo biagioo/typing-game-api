@@ -1,24 +1,31 @@
-# README
+# Welcome to The Typing Game!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This App was Built with Ruby on Rails, React and Redux langauges/libraries.
 
-Things you may want to cover:
+Check out the demo video or read about it.
 
-* Ruby version
+## Functionality
 
-* System dependencies
+Select which difficulty you'd like to play on.
 
-* Configuration
+Easy is 4 letter words, Medium is 5-6 letter words, Hard is 7 letter words.
 
-* Database creation
+You have 5 seconds to write the word displayed, each word you type correctly adds a point to your score.
 
-* Database initialization
+After the game is over, you'll be asked for a display name for your score to be seen on the score board.
 
-* How to run the test suite
+The score board you to search by name and filter by difficulty.
 
-* Services (job queues, cache servers, search engines, etc.)
+Feel Free to use the NavBar to Check the scores before playing! Enjoy!
 
-* Deployment instructions
+## Installation:
 
-* ...
+Clone this repository down onto your local enviroment
+
+- CD into it
+- run bundle install
+- run 'rails db:migrate'
+- run 'rails db:seed'
+
+- CD into backend-api and run 'rails s'
+- CD into frontend and run 'npm start'
