@@ -4,6 +4,8 @@ This App was Built with Ruby on Rails.
 
 This is the backend of The Typing Game, here is a link to the frontend repository. https://github.com/biagioo/TypingGame
 
+Check out the live [applicatoin](https://the-typing-game.vercel.app/) or [read](https://dev.to/mindful_developer/react-redux-project-aaj) about it.
+
 ## Functionality
 
 Select which difficulty you'd like to play on.
